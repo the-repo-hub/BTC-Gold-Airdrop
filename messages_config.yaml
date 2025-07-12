@@ -1,0 +1,101 @@
+messages:
+  start_message: "🗣 Hello, {name}! I am your friendly {bot_name}\n\n
+  ✅ Please do the required tasks to be eligible to get airdrop tokens.\n
+  🔸 For Joining - Get - 5 {coin_name} = 5 grams pure 24 Carat Gold\n
+  ⭐️ For each referral - Get - 1 {coin_name} = 1 grams of pure 24 carat Gold\n
+  📘 By Participating you are agreeing to the {bot_name} (Airdrop) Program Terms and Conditions (See previous message).\n
+   Please see pinned post for more information.\n\n
+   
+   Click 'Join Airdrop' to proceed"
+
+  terms_and_conditions_message: "How to add get (BTCGO) token to your Metamask wallet?\n
+  VIEW THIS YOUTUBE VIDEO INORDER TO CREATE A SMARTCHAIN.\n\n
+  
+  https://www.youtube.com/watch?v=kzQm5iM-Hkw\n\n
+  
+  Open metamask and select Binance smart chain network. Click on import token and copy the contract address below:\n\n
+  0x462BfA1f1102a367d3e8B7E9a6698427808b2C5e\n\n
+  
+  Then paste contract address in contract field in your Metamask Wallet. Once you add contract address, Decimals & name of the contract will appear. Click on add token to see GET tokens in your wallet.\n\n
+  Terms & Condition of the (BTCGO) Airdrop:\n\n
+  
+  1) Please follow the instruction given on the BOT page.\n
+  2) Every account is entitle to 5 BTCGO tokens = 5 grams of gold (Only valid when the project is listed with one or more major Crypto Exchanges between November 2022 and March 2023).\n
+  3) Every referral will give the referrer 1 BTCGO token.\n
+  4) We are going to launch the BTC GOLD ico between November 2022 and March 2023.We keep all our token holders informed on tweeter or telegram."
+
+  unknown_message: "❌ Unknown Command!\n\n
+  
+  You have send a Message directly into the Bot's chat or\n
+  Menu structure has been modified by Admin.\n\n
+  
+  ℹ️ Do not send Messages directly to the Bot or reload the Menu by pressing /start"
+
+  congratulations: "Congratulations!\n\n
+  
+  You have joined to airdrop, follow the news in our communities:\n\n
+  
+  Our twitter: {twitter_url}\n
+  Our instagram: {instagram_url}\n 
+  Our telegram group: {telegram_url}\n\n
+  
+  Use your referral wallet: {wallet} to give it your friends!"
+
+  new_profile: "ID: {id}\n
+  Name: {first_name}\n
+  Username: {username}\n\n
+  Twitter: {twitter_username}\n
+  Instagram: {instagram_username}\n
+  Email: {email}\n
+  Referral wallet: {referral_wallet}\n
+  Wallet address: {wallet}"
+  specify_token: "Specify the invitation token (invite's {coin_name} wallet):"
+  wallet_not_found: '❌ The wallet was not found in the list of participants, try again'
+  support: 'We are very sorry to hear that you are having trouble, please describe your issue:'
+  profile: "👤 Your Profile:\n\n 
+  
+  {profile_text}\n\n
+  
+  Use your referral wallet: {wallet} to give it your friends!"
+  cant_enter_wallet: "❌ You can't enter your wallet"
+  cant_submit_terms: "I'm sorry you couldn't stand the terms, remember, you can always change your mind!"
+
+  join: "📢 Airdrop Rules\n\n
+  ✏️ Mandatory Tasks:\n' \
+  🔹️ Join our Telegram Channel {telegram_url}\n
+  🔹️ Follow our Twitter {twitter_url}\n
+  🔹️ Follow our Instagram {instagram_url}\n\n
+  🔹️ Our e-mail for feedback: {email}\n\n
+  Complete all tasks then click “Submit Details” to verify you have completed the tasks."
+
+  need_to_join_group: "❌ You need to join a group to get started"
+  email_valid: "✔️ Your email was accepted!\n\n
+  Type your {coin_name} address:\n\n
+  Instructions for receiving a wallet: /terms"
+  email_invalid: "❌ Email is not valid, try again"
+  instagram_valid: "✔️ Your instagram was accepted!\n\n
+  Type your email address:\n\n
+  Our email address: {email}"
+  instagram_invalid: "❌ Instagram is not valid, try again"
+  you_need_to_join: "❌ You need to join a group to get started"
+  twitter_was_accepted: "✔️ Your twitter was accepted!\n\n
+  Type your instagram username to check presence in community:\n\n
+  Our instagram page: {instagram_url}"
+  complaint_sent: "Your complaint has been forwarded to support, your issue will be resolved soon"
+  we_have_trouble: "We have a trouble!\n\n
+  {trouble}'\n\n
+  {profile_text}"
+  username_not_in_twitter_followers: "❌ Your username was not found in followers"
+
+buttons:
+  join: "✅ Join Airdrop"
+  cancel: "❌ Cancel"
+  support: "👥 Support"
+  profile: "👤 My Profile"
+  back: "⬅️ Back"
+  specify_referral: "🆔 I want to specify a referral token"
+  submit_details: "✍️ Submit Details"
+
+checks:
+  twitter: false
+  instagram: false
