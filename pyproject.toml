@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "btc-gold-airdrop"
+version = "0.1.0"
+description = ""
+authors = ["howard <vzagulin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+aiogram = "^3.21.0"
+pyyaml = "^6.0.2"
+aiosmtplib = "^4.0.1"
+python-dotenv = "^1.1.1"
+sqlalchemy = "^2.0.41"
+psycopg2-binary = "^2.9.10"
+asyncpg = "^0.30.0"
+cachetools = "^6.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
