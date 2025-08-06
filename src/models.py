@@ -16,7 +16,6 @@ Session = async_sessionmaker(bind=engine)
 
 class User(Base):
     __tablename__ = 'users'
-    __table_args__ = {'postgresql_autocreate': True}
     pk = Column(Integer, primary_key=True, autoincrement=True)
     telegram_id = Column(Integer, unique=True)
     username = Column(String(255))
